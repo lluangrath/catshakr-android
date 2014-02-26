@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, catshakr!</string>
+    <string name="app_name">catshakr</string>
+<string name="splash_screen">SplashScreen</string><string name="main_screen">MainScreen</string>
+
+</resources>

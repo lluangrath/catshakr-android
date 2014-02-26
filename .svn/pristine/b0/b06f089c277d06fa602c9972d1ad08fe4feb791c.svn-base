@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="catshakr.main" android:versionCode="1" android:versionName="1.0">
+      
+    <uses-sdk android:minSdkVersion="8" /> 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    
+    <application android:label="@string/app_name" android:icon="@drawable/iconc">
+    
+    	<activity android:name=".mainmenu" android:label="@string/app_name"></activity>
+        <activity android:name="catshakr.game.catshakr" android:label="@string/app_name"></activity>
+		<activity android:name=".catgallery" android:label="@string/app_name"></activity>
+		<activity android:name=".splash" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"></action>
+				<category android:name="android.intent.category.LAUNCHER"></category>
+			</intent-filter>
+		</activity>
+        
+	</application>
+	
+</manifest> 

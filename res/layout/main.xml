@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView android:id="@+id/txtLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Random Cat Images" />
+<Gallery android:id="@+id/glryImages" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+<ImageSwitcher android:id="@+id/imgLols" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"  />
+
+</LinearLayout>
